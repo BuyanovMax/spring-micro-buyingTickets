@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/table/create-users-table.sql
+  - include:
+      file: liquibase/table/create-carriers-table.sql
+  - include:
+      file: liquibase/table/create-route-table.sql
+  - include:
+      file: liquibase/table/create-tickets-table.sql
